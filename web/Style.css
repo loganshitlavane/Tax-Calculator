@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Feb 2020, 4:50:51 PM
+    Author     : loganshitlavane
+*/
+
+body{
+    background-image: url("tax3.jpg");
+    background-repeat: no-repeat;
+    background-size: 900px    ;
+    background-position: center;
+    background-position-x: 200px ;
+    background-position-y: 100px;
+    
+}
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+    
+li{
+    float: left;
+}
+
+li a{
+    display: inline;
+    color: navy;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+        
+}
+
+li a:hover {
+    background-color: navy;
+    
+}
+.common-style{
+    text-align: center;
+    padding: 10px 500px;
+    color: #fff;
+    background-color: #12264a;
+    margin: 20px auto;
+    height: 50px;
+    width: 260px;
+    border: 3px solid #fff;
+     
+       
+}
+.div-2 .inner-2{
+    padding: 100px ;
+    background-attachment: fixed;
+    margin-left: -5%; 
+    margin-right: -5%;
+    
+}
+
+
+

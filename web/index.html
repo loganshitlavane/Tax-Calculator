@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tax Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="Style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        
+        <form action="http://localhost:8080 /tax/TaxController" method="get">
+            
+            <div class="topnav" style="text-align: center"><font color="Navy">  
+                <marquee direction="right">
+                       Mon - Fri: 8AM   Saturday: 9AM -7PM   Sunday: 9AM -8PM
+            </marquee>
+             </font>
+            <ul>
+                <li><a href="index.html">Home</a>
+                <li><a href="index.html">About</a>
+                 <li><a href="index.html">Contact</a>
+                
+                </li> 
+            </ul>
+        </div>
+       
+    <div class="div-2">
+      <div class="common-style">
+          <h1>Tax PAYE Details</h1>
+      </div>
+        
+  Tax year<br>
+  
+  <br>
+  <input type="text" name="taxyear">
+  <br>
+  <br>
+   Age<br>
+  <br>
+  <input type="text" name="age">
+  <br>
+  <br>
+   Monthly Income Tax<br>
+  
+    <br>
+  <input type="text" name="monthlyIncomeTax">
+  <br>
+  <br>
+  rate<br>
+  
+    <br>
+  <input type="text" name="rate">
+  <br>
+  <br>
+  <label for="cars">Tax Period P/M:<br></label>
+  <br>
+   
+   
+
+<select id="cars">
+    
+  <option value="one">1</option>
+  <option value="two">2</option>
+  <option value="three">3</option>
+  <option value="four">4</option>
+  <option value="five">5</option>
+  <option value="six">6</option>
+  <option value="seven">7</option>
+  <option value="eight">8</option>
+  <option value="nine">9</option>
+  <option value="ten">10</option>
+  <option value="eleven">11</option>
+  <option value="twelve">12</option>
+</select>
+   
+  <br>
+  <br>
+  
+   Medical Aid Members + Main<br>
+  <br>
+  <input type="text" name="medicalAid">
+  <br>
+  <br>
+  
+  <input type="submit" value="calculate"/>
+
+  <div class="div-2">
+      <div class="common-style">
+          <h1>Tax Total Details</h1>
+      </div>
+      <center>
+   Calculated PAYE - Before tax credit<br>
+  <br>
+  <input type="text" name="paye">
+  <br>
+  <br>
+   Tax Credits<br>
+  <br>
+  <input type="text" name="credit">
+  <br>
+  <br>
+   PAYE Due - After Tax Credit<br>
+  <br>
+  <input type="text" name="payedue">
+  <br>
+  <br>
+   Net Cash Pay after PAYE Due<br>
+  <br>
+  <input type="text" name="netcash">
+  <br>
+  <br>
+      
+        
+     
+  </form>
+
+    </body>
+</html>
